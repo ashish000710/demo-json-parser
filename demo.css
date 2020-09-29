@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+header, footer {
+	padding: 14px 0px;
+	background: papayawhip;
+	font-weight: bold;
+}
+
+section {
+	height: calc(100vh - 140px);
+	overflow: auto;
+}
+
+.list-wrapper {
+	padding: 14px;
+}
+
+.list-title {
+	font-weight: bold;
+}
+
+.list {
+	padding: 7px 0px;
+	font-size: 18px;
+}
+
+.list div {
+	padding: 0 7px;
+}
